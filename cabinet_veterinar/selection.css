@@ -1,0 +1,69 @@
+.tablestyle {
+    border-collapse: collapse;
+}
+
+.tablestyle td, .tablestyle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tablestyle tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablestyle tr:hover {background-color: #ddd;}
+
+.tablestyle th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.iudButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: -3px;
+}
+
+.iudButton:hover {
+    background-color: orangered;
+}
+
+.deleteTable {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.deleteTable td {
+    padding-right: 10px;
+}
+
+.deleteInput {
+    height: 22px;
+    width: 280px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: line;
+}
+
+.deleteButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.deleteButton:hover {
+    background-color: orangered;
+}
